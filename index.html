@@ -2,6 +2,17 @@
 <html lang="en">
 
 <head>
+    <style>
+        #overflowTest {
+            background: #4CAF50;
+            color: white;
+            padding: 15px;
+            width: 50%;
+            height: 100px;
+            overflow: scroll;
+            border: 1px solid #ccc;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rehan's project</title>
@@ -15,21 +26,30 @@
 </head>
 
 <body>
-    <div style="height: 500px; width: 100%; background-color: rgb(255, 136, 0); position: relative;">
-        <img class="col-4" src="assests/vr-removebg-preview.png" height="500px">
+    <section>
+        <div style="height: 500px; width: 100%; background-color: rgb(255, 136, 0); position: relative;">
+            <img class="col-4" src="assests/vr-removebg-preview.png" height="500px">
 
-        <div style="height: 330px;  background-color: red; width: auto; margin-top: -330px; opacity: 0.6;"></div>
-        
-    </div>
-    
-    <div style="position: absolute; top: 250px;">
-        <h4>Just The Right <br>Amount Of Everything</h4>
-        <input type="search" name="search" placeholder="search">
-        <input type="submit" name="submit" placeholder="submit">
-    </div>
-    <div style="height: 500px; width: 100%; background-color: orange;">
-        <img src="assests/panther-removebg-preview.png" height="400px">    
-    </div>
+            <div style="height: 330px;  background-color: red; width: auto; margin-top: -330px; opacity: 0.6;"></div>
+
+        </div>
+
+        <div style="position: absolute; top: 250px;">
+            <h4>Just The Right <br>Amount Of Everything</h4>
+            <input type="search" name="search" placeholder="search">
+            <input type="submit" name="submit" placeholder="submit">
+        </div>
+        <div class="row" style="height: 500px; width: 100%; background-color: orange;">
+            <div class="col-6">
+                <h3><b> About harness multimedia<br>
+                        based collabration</b>
+            </div>
+
+
+            <div class="col-6">
+                <img src="assests/panther-removebg-preview.png" height="400px">
+            </div>
+        </div>
     </section>
 
 </body>
